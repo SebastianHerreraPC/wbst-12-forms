@@ -1,0 +1,22 @@
+.form {
+  width: 320px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.95);
+  border-right: 1px solid #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.form__input-container {
+  max-width: 100%;
+  border: 1px solid red;
+  flex-direction: column;
+}
+.form__input-container_ctrl_texts {
+  overflow: hidden;
+  max-width: 100%;
+  display: flex;
+}
+.form__input-container_numbers {
+  display: flex;
+}

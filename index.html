@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
     <title>Document</title>
   </head>
   <body>
@@ -17,15 +18,27 @@
               <fieldset
                 class="form__input-container form__input-container_ctrl_texts"
               >
-                <input type="text" />
-                <input type="email" />
+                <label for="textos"> Aqui tu texto </label>
+
+                <input type="text" id="textos" />
+                <label for="email">Aqui tu email</label>
+                <input type="email" id="email" />
               </fieldset>
               <fieldset
-                class="form__input-container form__input-container_ctrl_visual"
+                class="form__input-container form__input-container_numbers"
               >
-                <input type="number" />
-                <input type="number" />
-                <input type="date" />
+                <label for="numero1">Selecciona un numero </label>
+                <input type="number" min="10" max="20" id="numero1" />
+                <label for="numero2">Selecciona un numero </label>
+                <input type="number" min="30" max="40" id="numero2" />
+                <label for="fecha">selecciona una fecha </label>
+                <input type="date" id="fecha" />
+              </fieldset>
+              <fieldset
+                class="form__input-container form__input-container_ctrl_additional"
+              >
+                <input type="color" />
+                <input type="range" />
               </fieldset>
             </div>
           </form>
