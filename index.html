@@ -21,6 +21,71 @@
                   name="Tu_nombre"
                   id="nombre"
                   class="input__texts"
+                  placeholder="Fulanito"
+                />
+              </div>
+              <div class="input__container">
+                <label for="apellido" class="form__label">Tu apellido</label>
+                <input
+                  type="text"
+                  name="apellido"
+                  id="apellido"
+                  class="input__texts"
+                  placeholder="Sutanito"
+                />
+              </div>
+              <div class="input__container input__container_large-texts">
+                <label
+                  for="comentario"
+                  class="form__label form__label_large-texts"
+                  >¿Tienes comentarios?</label
+                >
+                <input
+                  type="text"
+                  class="input__texts input__texts_large-txt"
+                  placeholder="Escribe tus comentarios"
+                />
+              </div>
+              <div class="input__container">
+                <label for="correo" class="form__label">Tu correo</label>
+                <input
+                  type="email"
+                  class="input__texts"
+                  placeholder="hello@example.com"
+                />
+              </div>
+            </fieldset>
+            <div class="form__line"></div>
+            <fieldset class="form__structure form__two">
+              <div class="input__container input__container_large-num">
+                <label
+                  for="numerounodiez"
+                  class="form__label form__label_large-num"
+                  >Elige un numero de 1 digito</label
+                >
+                <input
+                  min="0"
+                  max="9"
+                  type="number"
+                  name="numerounodiez"
+                  id="numerounodiez"
+                  class="input__texts input__texts_large-num"
+                />
+              </div>
+              <div class="input__container input__container_large-num">
+                <label
+                  for="numerounonueve"
+                  class="form__label form__label_large-num"
+                  >Elige un numero de 2 digitos</label
+                >
+                <input
+                  min="10"
+                  max="90"
+                  step="10"
+                  type="number"
+                  name="numerodieznoventa"
+                  id="numerodieznoventa"
+                  class="input__texts input__texts_large-num"
                 />
               </div>
               <div class="input__container">
@@ -48,8 +113,6 @@
                 <input type="email" class="input__texts" />
               </div>
             </fieldset>
-            <div class="form__line"></div>
-            <fieldset class="form"></fieldset>
           </div>
         </form>
       </main>

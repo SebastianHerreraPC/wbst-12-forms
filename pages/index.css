@@ -47,7 +47,7 @@
 }
 
 .form__label_large-texts {
-  min-width: none;
+  min-width: 200px;
   max-width: 200px;
 }
 
@@ -62,7 +62,6 @@
 }
 .input__container .input__texts.input__texts_large-txt {
   margin-left: 0;
-  min-width: 200px;
   max-width: 200px;
   border: 1px solid blue;
   margin-top: 5px;
@@ -73,4 +72,30 @@
 .form__line {
   height: 1px;
   background-color: black;
+}
+
+.form__two {
+  margin-top: 10px;
+}
+.input__numbers {
+  display: flex;
+  overflow: hidden;
+  min-width: 80px;
+  max-width: 80px;
+  max-height: 20px;
+  margin-left: 10px;
+  border: 1px solid red;
+}
+.input__container_large-num {
+  flex-direction: column;
+}
+.form__label_large-num {
+  min-width: 200px;
+  max-width: 200px;
+}
+.input__texts_large-num {
+  margin-left: 0;
+  max-width: 200px;
+  border: 1px solid blue;
+  margin-top: 5px;
 }
