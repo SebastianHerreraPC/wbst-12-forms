@@ -99,3 +99,8 @@
   border: 1px solid blue;
   margin-top: 5px;
 }
+.input__color {
+  margin: 5px auto 0;
+  width: 200px;
+  border: none;
+}
