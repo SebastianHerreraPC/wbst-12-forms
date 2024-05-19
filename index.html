@@ -10,39 +10,48 @@
     <div class="page">
       <header class="header"></header>
       <main class="main">
-        formulario
-        <div class="form">
-          <form class="form__admin">
-            <div class="form__container">
-              <h2 class="form__heading">Formulario</h2>
-              <fieldset
-                class="form__input-container form__input-container_ctrl_texts"
-              >
-                <label for="textos"> Aqui tu texto </label>
-
-                <input type="text" id="textos" />
-                <label for="email">Aqui tu email</label>
-                <input type="email" id="email" />
-              </fieldset>
-              <fieldset
-                class="form__input-container form__input-container_numbers"
-              >
-                <label for="numero1">Selecciona un numero </label>
-                <input type="number" min="10" max="20" id="numero1" />
-                <label for="numero2">Selecciona un numero </label>
-                <input type="number" min="30" max="40" id="numero2" />
-                <label for="fecha">selecciona una fecha </label>
-                <input type="date" id="fecha" />
-              </fieldset>
-              <fieldset
-                class="form__input-container form__input-container_ctrl_additional"
-              >
-                <input type="color" />
-                <input type="range" />
-              </fieldset>
-            </div>
-          </form>
-        </div>
+        <form class="formulario_container">
+          <div class="form__content">
+            <h2 class="form__title">Prueba el formulario</h2>
+            <fieldset class="form__structure form__one">
+              <div class="input__container">
+                <label for="nombre" class="form__label">Tu nombre</label>
+                <input
+                  type="text"
+                  name="Tu_nombre"
+                  id="nombre"
+                  class="input__texts"
+                />
+              </div>
+              <div class="input__container">
+                <label for="apellido" class="form__label">Tu apellido</label>
+                <input
+                  type="text"
+                  name="apellido"
+                  id="apellido"
+                  class="input__texts"
+                />
+              </div>
+              <div class="input__container input__container_large-texts">
+                <label
+                  for="comentario"
+                  class="form__label form__label_large-texts"
+                  >¿Tienes comentarios?</label
+                >
+                <input
+                  type="text"
+                  class="input__texts input__texts_large-txt"
+                />
+              </div>
+              <div class="input__container">
+                <label for="correo" class="form__label">Tu correo</label>
+                <input type="email" class="input__texts" />
+              </div>
+            </fieldset>
+            <div class="form__line"></div>
+            <fieldset class="form"></fieldset>
+          </div>
+        </form>
       </main>
       <footer class="footer"></footer>
     </div>

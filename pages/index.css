@@ -1,22 +1,76 @@
-.form {
-  width: 320px;
-  height: 100vh;
-  background: rgba(255, 255, 255, 0.95);
-  border-right: 1px solid #000;
-  position: fixed;
-  top: 0;
-  left: 0;
+.page {
+  margin: auto;
+  min-height: 1400px;
 }
-.form__input-container {
-  max-width: 100%;
+.main {
+  display: flex;
+  border: solid red 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 720px;
+}
+
+.formulario_container {
   border: 1px solid red;
+  min-width: 500px;
+}
+.form__structure {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  border: 0;
+}
+.input__container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: auto auto 10px;
+  min-width: 200px;
+  max-width: 300px;
+}
+.form__content {
+  border: 1px solid red;
+}
+
+.form__label {
+  min-width: 80px;
+  max-width: 80px;
+  overflow: hidden;
+
+  border: 1px solid red;
+}
+.input__container_large-texts {
   flex-direction: column;
 }
-.form__input-container_ctrl_texts {
-  overflow: hidden;
-  max-width: 100%;
-  display: flex;
+
+.form__label_large-texts {
+  min-width: none;
+  max-width: 200px;
 }
-.form__input-container_numbers {
+
+.input__texts {
   display: flex;
+  overflow: hidden;
+  min-width: 80px;
+  max-width: 80px;
+  max-height: 20px;
+  margin-left: 10px;
+  border: 1px solid red;
+}
+.input__container .input__texts.input__texts_large-txt {
+  margin-left: 0;
+  min-width: 200px;
+  max-width: 200px;
+  border: 1px solid blue;
+  margin-top: 5px;
+}
+.form__title {
+  border: 1px solid red;
+}
+.form__line {
+  height: 1px;
+  background-color: black;
 }
