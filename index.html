@@ -40,11 +40,12 @@
                   class="form__label form__label_large-texts"
                   >¿Tienes comentarios?</label
                 >
-                <input
+
+                <textarea
                   type="text"
                   class="input__texts input__texts_large-txt"
                   placeholder="Escribe tus comentarios"
-                />
+                ></textarea>
               </div>
               <div class="input__container">
                 <label for="correo" class="form__label">Tu correo</label>
@@ -88,29 +89,30 @@
                   class="input__texts input__texts_large-num"
                 />
               </div>
-              <div class="input__container">
-                <label for="apellido" class="form__label">Tu apellido</label>
-                <input
-                  type="text"
-                  name="apellido"
-                  id="apellido"
-                  class="input__texts"
-                />
+              <div class="input__container input__container_large-texts">
+                <label for="animal" class="form__label form__label_large-texts"
+                  >¿Que prefieres?</label
+                >
+                <select
+                  name="animal"
+                  id="animal"
+                  class="input__texts input__texts_large-txt"
+                >
+                  <option value="" disabled selected>
+                    Selecciona una opcion
+                  </option>
+                  <option value="gatito">Gatito</option>
+                  <option value="perrito">Perrito</option>
+                </select>
               </div>
               <div class="input__container input__container_large-texts">
-                <label
-                  for="comentario"
-                  class="form__label form__label_large-texts"
-                  >¿Tienes comentarios?</label
+                <label for="fecha" class="form__label form__label_large-texts"
+                  >Selecciona una fecha</label
                 >
                 <input
-                  type="text"
+                  type="date"
                   class="input__texts input__texts_large-txt"
                 />
-              </div>
-              <div class="input__container">
-                <label for="correo" class="form__label">Tu correo</label>
-                <input type="email" class="input__texts" />
               </div>
             </fieldset>
           </div>
